@@ -1,0 +1,1613 @@
+
+@font-face {
+    font-family: Monster Tools;
+    src: url(/build/assets/dotartisan-690b45a7.eot?e69d80e44f3402136d36fc6fb7913ee1);
+    src: url(/build/assets/dotartisan-690b45a7.eot?e69d80e44f3402136d36fc6fb7913ee1#iefix) 
+    format("embedded-opentype"),url(/build/assets/dotartisan-fe40391d.woff2?e69d80e44f3402136d36fc6fb7913ee1) 
+    format("woff2"),url(/build/assets/dotartisan-df957f8f.woff?e69d80e44f3402136d36fc6fb7913ee1) format("woff"),
+    url(/build/assets/dotartisan-d03d77cf.ttf?e69d80e44f3402136d36fc6fb7913ee1) format("truetype"),
+    url(/build/assets/dotartisan-90536e63.svg?e69d80e44f3402136d36fc6fb7913ee1#dotartisan) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+.an {
+    color: inherit
+}
+
+.an,.an-duotone {
+    font-family: Monster Tools;
+    display: inline-block;
+    font-size:2rem;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: inherit;
+    text-transform: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.an-duotone:before {
+    position: absolute;
+    color: var(--bs-primary);
+    opacity: 1
+}
+
+.an-duotone:after {
+    color: var(--bs-text-light)
+}
+
+.an-2x {
+    font-size: 20px
+}
+
+.an-3x {
+    font-size: 3em
+}
+
+.an-4x {
+    font-size: 4em
+}
+
+.an-5x {
+    font-size: 5em
+}
+
+.an-light {
+    color: #ddd
+}
+
+.an-age-calculator:after {
+    content: ""
+}
+
+.an-age-calculator:before {
+    content: ""
+}
+
+.an-area-converter:after {
+    content: ""
+}
+
+.an-area-converter:before {
+    content: ""
+}
+
+.an-article-rewriter:after {
+    content: ""
+}
+
+.an-article-rewriter:before {
+    content: ""
+}
+
+.an-ascii-to-binary:after {
+    content: ""
+}
+
+.an-ascii-to-binary:before {
+    content: ""
+}
+
+.an-average-calculator:after {
+    content: ""
+}
+
+.an-average-calculator:before {
+    content: ""
+}
+
+.an-base64-encode-decode:after {
+    content: ""
+}
+
+.an-base64-encode-decode:before {
+    content: ""
+}
+
+.an-binary-to-ascii:after {
+    content: ""
+}
+
+.an-binary-to-ascii:before {
+    content: ""
+}
+
+.an-binary-to-decimal:after {
+    content: ""
+}
+
+.an-binary-to-decimal:before {
+    content: ""
+}
+
+.an-binary-to-hex:after {
+    content: ""
+}
+
+.an-binary-to-hex:before {
+    content: ""
+}
+
+.an-binary-to-text:after {
+    content: ""
+}
+
+.an-binary-to-text:before {
+    content: ""
+}
+
+.an-black-list-check:after {
+    content: ""
+}
+
+.an-black-list-check:before {
+    content: ""
+}
+
+.an-byte-bit-converter:after {
+    content: ""
+}
+
+.an-byte-bit-converter:before {
+    content: ""
+}
+
+.an-convert-jpg:after {
+    content: ""
+}
+
+.an-convert-jpg:before {
+    content: ""
+}
+
+.an-css-minifier:after {
+    content: ""
+}
+
+.an-css-minifier:before {
+    content: ""
+}
+
+.an-decimal-to-binary:after {
+    content: ""
+}
+
+.an-decimal-to-binary:before {
+    content: ""
+}
+
+.an-decimal-to-hex:after {
+    content: ""
+}
+
+.an-decimal-to-hex:before {
+    content: ""
+}
+
+.an-discount-calculator:after {
+    content: ""
+}
+
+.an-discount-calculator:before {
+    content: ""
+}
+
+.an-domain-age-checker:after {
+    content: ""
+}
+
+.an-domain-age-checker:before {
+    content: ""
+}
+
+.an-domain-authority-checker:after {
+    content: ""
+}
+
+.an-domain-authority-checker:before {
+    content: ""
+}
+
+.an-domain-hosting-checker:after {
+    content: ""
+}
+
+.an-domain-hosting-checker:before {
+    content: ""
+}
+
+.an-domain-name-search:after {
+    content: ""
+}
+
+.an-domain-name-search:before {
+    content: ""
+}
+
+.an-domain-to-ip:after {
+    content: ""
+}
+
+.an-domain-to-ip:before {
+    content: ""
+}
+
+.an-electric-voltage-converter:after {
+    content: ""
+}
+
+.an-electric-voltage-converter:before {
+    content: ""
+}
+
+.an-favicon-generator:after {
+    content: ""
+}
+
+.an-find-dns-record:after {
+    content: ""
+}
+
+.an-find-dns-record:before {
+    content: ""
+}
+
+.an-grammar-check:after {
+    content: ""
+}
+
+.an-grammar-check:before {
+    content: ""
+}
+
+.an-hex-to-binary:after {
+    content: ""
+}
+
+.an-hex-to-binary:before {
+    content: ""
+}
+
+.an-html-editor:after {
+    content: ""
+}
+
+.an-html-editor:before {
+    content: ""
+}
+
+.an-html-minifier:after {
+    content: ""
+}
+
+.an-html-minifier:before {
+    content: ""
+}
+
+.an-image-compressor:after {
+    content: ""
+}
+
+.an-image-crop:after {
+    content: ""
+}
+
+.an-image-crop:before {
+    content: ""
+}
+
+.an-image-editor:after {
+    content: ""
+}
+
+.an-image-editor:before {
+    content: ""
+}
+
+.an-image-resizer:after {
+    content: ""
+}
+
+.an-image-resizer:before {
+    content: ""
+}
+
+.an-img-text:after {
+    content: ""
+}
+
+.an-img-text:before {
+    content: ""
+}
+
+.an-img-word:after {
+    content: ""
+}
+
+.an-img-word:before {
+    content: ""
+}
+
+.an-ip-loaction:after {
+    content: ""
+}
+
+.an-ip-loaction:before {
+    content: ""
+}
+
+.an-javascript-minifier:after {
+    content: ""
+}
+
+.an-javascript-minifier:before {
+    content: ""
+}
+
+.an-json-beautifier:after {
+    content: ""
+}
+
+.an-json-beautifier:before {
+    content: ""
+}
+
+.an-json-editor:after {
+    content: ""
+}
+
+.an-json-editor:before {
+    content: ""
+}
+
+.an-json-formatter:after {
+    content: ""
+}
+
+.an-json-formatter:before {
+    content: ""
+}
+
+.an-json-to-xml:after {
+    content: ""
+}
+
+.an-json-to-xml:before {
+    content: ""
+}
+
+.an-json-validator:after {
+    content: ""
+}
+
+.an-json-validator:before {
+    content: ""
+}
+
+.an-json-viewer:after {
+    content: ""
+}
+
+.an-json-viewer:before {
+    content: ""
+}
+
+.an-length-converter:after {
+    content: ""
+}
+
+.an-length-converter:before {
+    content: ""
+}
+
+.an-md5-generator:after {
+    content: ""
+}
+
+.an-md5-generator:before {
+    content: ""
+}
+
+.an-meme-generator:after {
+    content: ""
+}
+
+.an-meme-generator:before {
+    content: ""
+}
+
+.an-meta-tag-analyzer:after {
+    content: ""
+}
+
+.an-meta-tag-analyzer:before {
+    content: ""
+}
+
+.an-my-ip:after {
+    content: ""
+}
+
+.an-my-ip:before {
+    content: ""
+}
+
+.an-online-html-viewer:after {
+    content: ""
+}
+
+.an-online-html-viewer:before {
+    content: ""
+}
+
+.an-online-png:after {
+    content: ""
+}
+
+.an-online-png:before {
+    content: ""
+}
+
+.an-online-text-editor:after {
+    content: ""
+}
+
+.an-online-text-editor:before {
+    content: ""
+}
+
+.an-open-graph-generator:after {
+    content: ""
+}
+
+.an-open-graph-generator:before {
+    content: ""
+}
+
+.an-paraphrasing-tool:after {
+    content: ""
+}
+
+.an-paraphrasing-tool:before {
+    content: ""
+}
+
+.an-password-generator:after {
+    content: ""
+}
+
+.an-password-generator:before {
+    content: ""
+}
+
+.an-percentage-calculator:after {
+    content: ""
+}
+
+.an-percentage-calculator:before {
+    content: ""
+}
+
+.an-ping-tool:after {
+    content: ""
+}
+
+.an-ping-tool:before {
+    content: ""
+}
+
+.an-plagiarism-checker:after {
+    content: ""
+}
+
+.an-plagiarism-checker:before {
+    content: ""
+}
+
+.an-power-converter:after {
+    content: ""
+}
+
+.an-power-converter:before {
+    content: ""
+}
+
+.an-pressure-converter:after {
+    content: ""
+}
+
+.an-pressure-converter:before {
+    content: ""
+}
+
+.an-probability-calculator:after {
+    content: ""
+}
+
+.an-probability-calculator:before {
+    content: ""
+}
+
+.an-qr-code-generator:after {
+    content: ""
+}
+
+.an-qr-code-generator:before {
+    content: ""
+}
+
+.an-reverse-image-search:after {
+    content: ""
+}
+
+.an-reverse-image-search:before {
+    content: ""
+}
+
+.an-reverse-text-generator:after {
+    content: ""
+}
+
+.an-reverse-text-generator:before {
+    content: ""
+}
+
+.an-rgb-hex:after {
+    content: ""
+}
+
+.an-rgb-hex:before {
+    content: ""
+}
+
+.an-sales-tax-calculator:after {
+    content: ""
+}
+
+.an-sales-tax-calculator:before {
+    content: ""
+}
+
+.an-seo-report:after {
+    content: ""
+}
+
+.an-seo-report:before {
+    content: ""
+}
+
+.an-small-text-generator:after {
+    content: ""
+}
+
+.an-small-text-generator:before {
+    content: ""
+}
+
+.an-speed-converter:after {
+    content: ""
+}
+
+.an-speed-converter:before {
+    content: ""
+}
+
+.an-spell-checker:after {
+    content: ""
+}
+
+.an-spell-checker:before {
+    content: ""
+}
+
+.an-strength-checker:after {
+    content: ""
+}
+
+.an-strength-checker:before {
+    content: ""
+}
+
+.an-tag-generator:after {
+    content: ""
+}
+
+.an-tag-generator:before {
+    content: ""
+}
+
+.an-temperature-converter:after {
+    content: ""
+}
+
+.an-temperature-converter:before {
+    content: ""
+}
+
+.an-text-to-ascii:after {
+    content: ""
+}
+
+.an-text-to-ascii:before {
+    content: ""
+}
+
+.an-text-to-binary:after {
+    content: ""
+}
+
+.an-text-to-binary:before {
+    content: ""
+}
+
+.an-text-to-image:after {
+    content: ""
+}
+
+.an-text-to-image:before {
+    content: ""
+}
+
+.an-text-to-speech:after {
+    content: ""
+}
+
+.an-text-to-speech:before {
+    content: ""
+}
+
+.an-time-converter:after {
+    content: ""
+}
+
+.an-time-converter:before {
+    content: ""
+}
+
+.an-torque-converter:after {
+    content: ""
+}
+
+.an-torque-converter:before {
+    content: ""
+}
+
+.an-translate-english:after {
+    content: ""
+}
+
+.an-translate-english:before {
+    content: ""
+}
+
+.an-twitter-card-generator:after {
+    content: ""
+}
+
+.an-twitter-card-generator:before {
+    content: ""
+}
+
+.an-uppercase-to-lowercase:after {
+    content: ""
+}
+
+.an-uppercase-to-lowercase:before {
+    content: ""
+}
+
+.an-url-encode-decode:after {
+    content: ""
+}
+
+.an-url-encode-decode:before {
+    content: ""
+}
+
+.an-url-opener:after {
+    content: ""
+}
+
+.an-url-opener:before {
+    content: ""
+}
+
+.an-volume-converter:after {
+    content: ""
+}
+
+.an-volume-converter:before {
+    content: ""
+}
+
+.an-website-screenshot:after {
+    content: ""
+}
+
+.an-website-screenshot:before {
+    content: ""
+}
+
+.an-weight-converter:after {
+    content: ""
+}
+
+.an-weight-converter:before {
+    content: ""
+}
+
+.an-word-combiner:after {
+    content: ""
+}
+
+.an-word-combiner:before {
+    content: ""
+}
+
+.an-word-counter:after {
+    content: ""
+}
+
+.an-word-counter:before {
+    content: ""
+}
+
+.an-wp-generator:after {
+    content: ""
+}
+
+.an-wp-generator:before {
+    content: ""
+}
+
+.an-wp-theme-detector:after {
+    content: ""
+}
+
+.an-wp-theme-detector:before {
+    content: ""
+}
+
+.an-xml-formatter:after {
+    content: ""
+}
+
+.an-xml-formatter:before {
+    content: ""
+}
+
+.an-xml-to-json:after {
+    content: ""
+}
+
+.an-xml-to-json:before {
+    content: ""
+}
+
+.an-align-center:before {
+    content: ""
+}
+
+.an-align-left:before {
+    content: ""
+}
+
+.an-align-right:before {
+    content: ""
+}
+
+.an-angle-down:before {
+    content: ""
+}
+
+.an-arrow-alt-down:before {
+    content: ""
+}
+
+.an-attch-clip:before {
+    content: ""
+}
+
+.an-balance:before {
+    content: ""
+}
+
+.an-bing:before {
+    content: ""
+}
+
+.an-bookmark:before {
+    content: ""
+}
+
+.an-card-visa:before {
+    content: ""
+}
+
+.an-card:before {
+    content: ""
+}
+
+.an-chack:before {
+    content: ""
+}
+
+.an-check-double:before {
+    content: ""
+}
+
+.an-circle-down-arrow:before {
+    content: ""
+}
+
+.an-circle:before {
+    content: ""
+}
+
+.an-copy-to-clipboard:before {
+    content: ""
+}
+
+.an-copy:before {
+    content: ""
+}
+
+.an-download:before {
+    content: ""
+}
+
+.an-dropbox:before {
+    content: ""
+}
+
+.an-email:before {
+    content: ""
+}
+
+.an-eye-slash:before {
+    content: ""
+}
+
+.an-eye:before {
+    content: ""
+}
+
+.an-facebook:before {
+    content: ""
+}
+
+.an-flip-horizontally:before {
+    content: ""
+}
+
+.an-flip-text:before {
+    content: ""
+}
+
+.an-flip-vertically:before {
+    content: ""
+}
+
+.an-flip-wording:before {
+    content: ""
+}
+
+.an-g-drive:before {
+    content: ""
+}
+
+.an-glob:before {
+    content: ""
+}
+
+.an-google:before {
+    content: ""
+}
+
+.an-heart:before {
+    content: ""
+}
+
+.an-historical-keywords:before {
+    content: ""
+}
+
+.an-image:before {
+    content: ""
+}
+
+.an-lcd:before {
+    content: ""
+}
+
+.an-link:before {
+    content: ""
+}
+
+.an-linkedin-in:before {
+    content: ""
+}
+
+.an-lock:before {
+    content: ""
+}
+
+.an-logo:before {
+    content: ""
+}
+
+.an-long-arrow-down:before {
+    content: ""
+}
+
+.an-long-arrow-up:before {
+    content: ""
+}
+
+.an-miscellaneous:before {
+    content: ""
+}
+
+.an-mobile:before {
+    content: ""
+}
+
+.an-moon:before {
+    content: ""
+}
+
+.an-overview:before {
+    content: ""
+}
+
+.an-paypal:before {
+    content: ""
+}
+
+.an-performance:before {
+    content: ""
+}
+
+.an-plug:before {
+    content: ""
+}
+
+.an-print:before {
+    content: ""
+}
+
+.an-reload:before {
+    content: ""
+}
+
+.an-resize:before {
+    content: ""
+}
+
+.an-resources:before {
+    content: ""
+}
+
+.an-reverse-each-words-lettering:before {
+    content: ""
+}
+
+.an-reverse-text:before {
+    content: ""
+}
+
+.an-reverse-wording:before {
+    content: ""
+}
+
+.an-rotate-left:before {
+    content: ""
+}
+
+.an-rotate:before {
+    content: ""
+}
+
+.an-search:before {
+    content: ""
+}
+
+.an-security:before {
+    content: ""
+}
+
+.an-seo-analysis:before {
+    content: ""
+}
+
+.an-settings:before {
+    content: ""
+}
+
+.an-sms:before {
+    content: ""
+}
+
+.an-square:before {
+    content: ""
+}
+
+.an-star:before {
+    content: ""
+}
+
+.an-stopwatch:before {
+    content: ""
+}
+
+.an-sun:before {
+    content: ""
+}
+
+.an-text:before {
+    content: ""
+}
+
+.an-times-circle:before {
+    content: ""
+}
+
+.an-triangle:before {
+    content: ""
+}
+
+.an-twitter:before {
+    content: ""
+}
+
+.an-upload-image:before {
+    content: ""
+}
+
+.an-upside-down:before {
+    content: ""
+}
+
+.an-vcard:before {
+    content: ""
+}
+
+.an-yandex:before {
+    content: ""
+}
+
+.an-android-alt:before {
+    content: ""
+}
+
+.an-apple:before {
+    content: ""
+}
+
+.an-browser:before {
+    content: ""
+}
+
+.an-cog:before {
+    content: ""
+}
+
+.an-envelope-open-text:before {
+    content: ""
+}
+
+.an-envelope:before {
+    content: ""
+}
+
+.an-exclamation-triangle:before {
+    content: ""
+}
+
+.an-flickr:before {
+    content: ""
+}
+
+.an-github:before {
+    content: ""
+}
+
+.an-grid-layouts:before {
+    content: ""
+}
+
+.an-grid-view:before {
+    content: ""
+}
+
+.an-image:before {
+    content: ""
+}
+
+.an-instagram:before {
+    content: ""
+}
+
+.an-mailchimp:before {
+    content: ""
+}
+
+.an-menu:before {
+    content: ""
+}
+
+.an-pinterest:before {
+    content: ""
+}
+
+.an-reddit-alien:before {
+    content: ""
+}
+
+.an-reload:before {
+    content: ""
+}
+
+.an-shield-sword:before {
+    content: ""
+}
+
+.an-thumbs-up:before {
+    content: ""
+}
+
+.an-times:before {
+    content: ""
+}
+
+.an-trash-alt:before {
+    content: ""
+}
+
+.an-trash:before {
+    content: ""
+}
+
+.an-user-circle-o:before {
+    content: ""
+}
+
+.an-user:before {
+    content: ""
+}
+
+.an-vk:before {
+    content: ""
+}
+
+.an-whatsapp:before {
+    content: ""
+}
+
+.an-youtube:before {
+    content: ""
+}
+
+.an-bmp-to-pdf-tool:before {
+    content: ""
+}
+
+.an-bmp-to-pdf-tool:after {
+    content: ""
+}
+
+.an-broom:before {
+    content: ""
+}
+
+.an-broom:after {
+    content: ""
+}
+
+.an-browser:before {
+    content: ""
+}
+
+.an-browser:after {
+    content: ""
+}
+
+.an-code-pull:before {
+    content: ""
+}
+
+.an-code-pull:after {
+    content: ""
+}
+
+.an-code:before {
+    content: ""
+}
+
+.an-code:after {
+    content: ""
+}
+
+.an-compress-pdf-tool:before {
+    content: ""
+}
+
+.an-compress-pdf-tool:after {
+    content: ""
+}
+
+.an-english-converter:before {
+    content: ""
+}
+
+.an-english-converter:after {
+    content: ""
+}
+
+.an-excel-to-pdf-tool:before {
+    content: ""
+}
+
+.an-excel-to-pdf-tool:after {
+    content: ""
+}
+
+.an-extract-pdf-pages-too:before {
+    content: ""
+}
+
+.an-extract-pdf-pages-too:after {
+    content: ""
+}
+
+.an-graph-increase:before {
+    content: ""
+}
+
+.an-graph-increase:after {
+    content: ""
+}
+
+.an-grayscale-pdf-tool:before {
+    content: ""
+}
+
+.an-grayscale-pdf-tool:after {
+    content: ""
+}
+
+.an-jpg-to-pdf-tool:before {
+    content: ""
+}
+
+.an-jpg-to-pdf-tool:after {
+    content: ""
+}
+
+.an-keyword-density-checker:before {
+    content: ""
+}
+
+.an-keyword-density-checker:after {
+    content: ""
+}
+
+.an-lock:before {
+    content: ""
+}
+
+.an-lock:after {
+    content: ""
+}
+
+.an-merge-pdf-tool:before {
+    content: ""
+}
+
+.an-merge-pdf-tool:after {
+    content: ""
+}
+
+.an-moz-rank-checker:before {
+    content: ""
+}
+
+.an-moz-rank-checker:after {
+    content: ""
+}
+
+.an-organize-pdf-tool:before {
+    content: ""
+}
+
+.an-organize-pdf-tool:after {
+    content: ""
+}
+
+.an-paraphrased:before {
+    content: ""
+}
+
+.an-paraphrased:after {
+    content: ""
+}
+
+.an-pdf-to-bmp-tool:before {
+    content: ""
+}
+
+.an-pdf-to-bmp-tool:after {
+    content: ""
+}
+
+.an-pdf-to-jpg-tool:before {
+    content: ""
+}
+
+.an-pdf-to-jpg-tool:after {
+    content: ""
+}
+
+.an-pdf-to-png-tool:before {
+    content: ""
+}
+
+.an-pdf-to-png-tool:after {
+    content: ""
+}
+
+.an-pdf-to-power-point-tool:before {
+    content: ""
+}
+
+.an-pdf-to-power-point-tool:after {
+    content: ""
+}
+
+.an-pdf-to-text-tool:before {
+    content: ""
+}
+
+.an-pdf-to-text-tool:after {
+    content: ""
+}
+
+.an-pdf-to-tiff-tool:before {
+    content: ""
+}
+
+.an-pdf-to-tiff-tool:after {
+    content: ""
+}
+
+.an-pdf-to-word-tool:before {
+    content: ""
+}
+
+.an-pdf-to-word-tool:after {
+    content: ""
+}
+
+.an-pdf-to-zip-tool:before {
+    content: ""
+}
+
+.an-pdf-to-zip-tool:after {
+    content: ""
+}
+
+.an-pdf-tools:after {
+    content: ""
+}
+
+.an-pdf-tools:before {
+    content: ""
+}
+
+.an-png-to-pdf-tool:before {
+    content: ""
+}
+
+.an-png-to-pdf-tool:after {
+    content: ""
+}
+
+.an-power-point-to-pdf-tool:before {
+    content: ""
+}
+
+.an-power-point-to-pdf-tool:after {
+    content: ""
+}
+
+.an-protect-pdf-tool:before {
+    content: ""
+}
+
+.an-protect-pdf-tool:after {
+    content: ""
+}
+
+.an-related-keywords-finder:before {
+    content: ""
+}
+
+.an-related-keywords-finder:after {
+    content: ""
+}
+
+.an-remove-pages-tool:before {
+    content: ""
+}
+
+.an-remove-pages-tool:after {
+    content: ""
+}
+
+.an-repair-pdf-tool:before {
+    content: ""
+}
+
+.an-repair-pdf-tool:after {
+    content: ""
+}
+
+.an-rotate-pdf-tool:before {
+    content: ""
+}
+
+.an-rotate-pdf-tool:after {
+    content: ""
+}
+
+.an-seo-tools:after {
+    content: ""
+}
+
+.an-seo-tools:before {
+    content: ""
+}
+
+.an-serp-checker:before {
+    content: ""
+}
+
+.an-serp-checker:after {
+    content: ""
+}
+
+.an-sitemap-generator:after {
+    content: ""
+}
+
+.an-sitemap-generator:before {
+    content: ""
+}
+
+.an-spider:before {
+    content: ""
+}
+
+.an-spider:after {
+    content: ""
+}
+
+.an-text-to-pdf-tool:before {
+    content: ""
+}
+
+.an-text-to-pdf-tool:after {
+    content: ""
+}
+
+.an-tiff-to-pdf-tool:before {
+    content: ""
+}
+
+.an-tiff-to-pdf-tool:after {
+    content: ""
+}
+
+.an-unlock-pdf-tool:before {
+    content: ""
+}
+
+.an-unlock-pdf-tool:after {
+    content: ""
+}
+
+.an-us-to-uk-converter:after {
+    content: ""
+}
+
+.an-us-to-uk-converter:before {
+    content: ""
+}
+
+.an-video-downloader:after {
+    content: ""
+}
+
+.an-video-downloader:before {
+    content: ""
+}
+
+.an-website-tracking-tools:after {
+    content: ""
+}
+
+.an-website-tracking-tools:before {
+    content: ""
+}
+
+.an-word-to-pdf-tool:before {
+    content: ""
+}
+
+.an-word-to-pdf-tool:after {
+    content: ""
+}
+
+.an-zip:before {
+    content: ""
+}
+
+.an-zip:after {
+    content: ""
+}
+
+.an-shrink {
+    animation-name: pulse-shrink;
+    animation-duration: .3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate
+}
+
+@keyframes pulse-shrink {
+    to {
+        transform: scale(.8)
+    }
+}
+
+.an-spin {
+    animation: 2s linear infinite an-spin
+}
+
+.an-pulse {
+    animation: 1s steps(8) infinite an-spin
+}
+
+@keyframes an-spin {
+    0% {
+        transform: rotate(0)
+    }
+
+    to {
+        transform: rotate(359deg)
+    }
+}
+
+.an-rotate-90 {
+    transform: rotate(90deg)
+}
+
+.an-rotate-180 {
+    transform: rotate(180deg)
+}
+
+.an-rotate-270 {
+    transform: rotate(270deg)
+}
+
+.an-flip-horizontal {
+    transform: scaleX(-1)
+}
+
+.an-flip-vertical {
+    transform: scaleY(-1)
+}
